@@ -18,7 +18,7 @@ This is a simple e-commerce website that allows users to browse product categori
 
 ## Screenshot
 
-<img src="images/Page-screenshot.png">
+<img src="Images/Page-screenshot.png">
 
 ## File Structure
 
