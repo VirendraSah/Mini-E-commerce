@@ -1,0 +1,87 @@
+@media only screen and (min-width:200px) and (max-width:576px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .product-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categories {
+        width: 100%;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+
+    .categories ul {
+        overflow-x: scroll;
+        width: max-content;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .categories ul li {
+        width: fit-content;
+        padding: 5px 10px;
+        background: aqua;
+    }
+
+    .forScroll{
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+    .ProductDetails h2{
+        font-size: 12px;
+    }
+    .ProductDetails p{
+        font-size: 10px;
+    }
+    .main{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:970px){
+    .wrapper {
+        flex-direction: column;
+    }
+    .product-gallery{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .categories {
+        width: 100%;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .categories ul {
+        overflow-x: scroll;
+        width: max-content;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .categories ul li {
+        width: fit-content;
+        padding: 5px 10px;
+        background: aqua;
+        font-size: 22px;
+    }
+
+    .forScroll{
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        scrollbar-width: none;
+    }
+    .ProductDetails h2{
+        font-size: 12px;
+    }
+    .ProductDetails p{
+        font-size: 10px;
+    }
+    .main{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #00000075;
+}
+#outer{
+    width: 100%;
+    height: max-content;
+    padding: 20px 10px;
+}
+.wrapper{
+    max-width: 1320px;
+    height: max-content;
+    margin: 0px auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.categories{
+    width: min-content;
+    height: max-content;
+    padding: 10px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: whitesmoke;
+    padding-bottom: 50px;
+
+}
+.product-gallery{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+}
+.categories ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.categories ul li{
+    font-weight: 500;
+    font-size: 15px;
+    width: max-content;
+    cursor: pointer;
+}
+.product-gallery{
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    background: whitesmoke;
+    padding: 10px;
+    row-gap: 20px;
+}
+.product{
+    height: max-content;
+    background: burlywood;
+    padding: 5px;
+}
+
+.product img{
+    width:100%;
+    aspect-ratio: 1/1;
+    background: white;
+}
+.ProductDetails{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ProductDetails h2{
+    font-size: 17px;
+    font-weight: 600;
+}
+.Price{
+    width: max-content;
+    background: green;
+    padding: 3px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.search-bar{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.search-bar form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.search-bar form input{
+    
+    max-width: 300px;
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.search-bar form button{
+    padding: 5px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    height: 30px;
+}
+.active-category {
+    background-color: #f4b400; /* Example color */
+    color: white;
+    font-weight: bold;
+}
