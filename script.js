@@ -19,7 +19,7 @@ let catProduct = async (productName = '', searchQuery = '') => {
         let apiurl = await fetch('https://dummyjson.com/products/categories');
         let AllCat = await apiurl.json();
         let AllCategories = '';
-
+        
         AllCat.forEach((CatName) => {
             AllCategories += `<li onclick="catProduct('${CatName.name}'); Bgred(this)">${CatName.name}</li>`;
         });
