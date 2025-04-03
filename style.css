@@ -98,10 +98,9 @@ body{
     height: max-content;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content:space-between;
 }
 .search-bar form{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -128,4 +127,22 @@ body{
     background-color: #f4b400; /* Example color */
     color: white;
     font-weight: bold;
+}
+.makelogocircle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.logo figure{
+    position: absolute;
+    top: -7px;
+    left: -9px;
+}
+.logo figure img{
+    width: 100px;
+}
+.logo h2{
+    color: rgb(75, 200, 75);
 }

@@ -27,28 +27,66 @@
         background: aqua;
     }
 
-    .forScroll{
+    .forScroll {
         overflow-x: scroll;
         scroll-behavior: smooth;
         scrollbar-width: none;
     }
-    .ProductDetails h2{
+
+    .ProductDetails h2 {
         font-size: 12px;
     }
-    .ProductDetails p{
+
+    .ProductDetails p {
         font-size: 10px;
     }
-    .main{
+
+    .main {
         flex-direction: column;
     }
+
+    .logo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .logo h2 {
+        font-size: 10px;
+    }
+
+    .makelogocircle {
+        width: 50px;
+        height: 50px;
+    }
+    .logo figure img{
+        width: 70px;
+    }
+    .search-bar form{
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 5px;
+    }
+    .search-bar form input{
+        border-radius: 5px;
+    }
+    .search-bar form button{
+        border-radius: 5px;
+    }
 }
-@media only screen and (min-width:577px) and (max-width:970px){
+
+@media only screen and (min-width:577px) and (max-width:970px) {
     .wrapper {
         flex-direction: column;
     }
-    .product-gallery{
+
+    .product-gallery {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .categories {
         width: 100%;
         padding-right: 10px;
@@ -70,18 +108,21 @@
         font-size: 22px;
     }
 
-    .forScroll{
+    .forScroll {
         overflow-x: scroll;
         scroll-behavior: smooth;
         scrollbar-width: none;
     }
-    .ProductDetails h2{
+
+    .ProductDetails h2 {
         font-size: 12px;
     }
-    .ProductDetails p{
+
+    .ProductDetails p {
         font-size: 10px;
     }
-    .main{
+
+    .main {
         flex-direction: column;
     }
 }
