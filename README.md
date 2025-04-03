@@ -18,7 +18,7 @@ This is a simple e-commerce website that allows users to browse product categori
 
 ## Screenshot
 
-![Website Screenshot](images/Page-screenshot.png)
+<img src="images/Page-screenshot.png">
 
 ## File Structure
 
@@ -28,7 +28,7 @@ This is a simple e-commerce website that allows users to browse product categori
 │── style.css           # Main styles
 │── responsive.css      # Responsive styles
 │── script.js           # JavaScript functionality
-│── screenshot.png      # Screenshot of the website
+│── images              # Screenshot of the website
 │── README.md           # Project documentation
 ```
 
@@ -54,4 +54,4 @@ The website fetches product data from the DummyJSON API:
 
 ## Credits
 
-Developed by **[Virendra Sah]**.
+Developed by **Virendra Sah**.
